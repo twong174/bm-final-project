@@ -1,0 +1,18 @@
+.assignment-widget-container { 
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.assignment-widget-header-container { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homework-title-container {
+  margin-left: 20px;
+}
+

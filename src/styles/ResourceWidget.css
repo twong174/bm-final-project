@@ -1,0 +1,18 @@
+.resource-wiget-container { 
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.resource-widget-title-container { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resource-reading-container { 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

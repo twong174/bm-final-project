@@ -1,0 +1,20 @@
+.expanded-resource-widget  {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.resource-title { 
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.resource-description { 
+  font-size: 16px;
+  margin-left: 20px;
+  color: #3C3C43;
+  margin-bottom: 20px;
+}

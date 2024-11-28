@@ -1,0 +1,36 @@
+.priority-label-container {
+  border-radius: 10px;
+  padding: 3px 5px;
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* High Priority Styles */
+.priority-high {
+  background-color: #ffcccc; /* Light red */
+  border:  #cc0000; /* Darker red border */
+  color: #e10808;
+}
+
+/* Medium Priority Styles */
+.priority-medium {
+  background-color: #ffebcc; /* Light orange */
+  border: #fbb853; /* Darker orange border */
+  color: #ffa41d;
+}
+
+/* Low Priority Styles */
+.priority-low {
+  background-color: rgb(202, 237, 202);
+  border: #009900; 
+  color: rgb(76, 222, 76);
+}
+
+/* Default Style (if no valid status is provided) */
+.priority-default {
+  background-color: #e0e0e0; /* Light gray */
+  border: 2px solid #a0a0a0; /* Darker gray border */
+}

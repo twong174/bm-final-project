@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import HomePage from "./components/HomePage";
+import Navbar from "./components/Navbar";
+import ResourcePage from "./components/ResourcePage";
+import AssignmentPage from "./components/AssignmentPage";
 
 function App() {
+  const [defaultScreen, setDefaultScreen] = useState("HomePage");
+
+  const renderHomeScreen = () => {
+    switch (defaultScreen) {
+      case "Resources":
+        return <ResourcePage />;
+      case "Assignments":
+        return <AssignmentPage />;
+      default:
+        return <HomePage />;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar setScreen={setDefaultScreen} />
+      {renderHomeScreen()}
+    </>
   );
 }
 
