@@ -43,6 +43,13 @@ const AssignmentPage = () => {
           assignmentPDF="/pdfs/ZenandTechnology.pdf"
           priority="Low"
         />
+        <ExpandedAssignmentWidget
+          assignmentTitle="Field Trip to Dai Bosatsu Zendo, Kongo-Ji
+          "
+          assignmentDueDate="12/18/24"
+          assignmentPDF="/pdfs/FieldTrip.pdf"
+          priority="Low"
+        />
       </div>
     </>
   );

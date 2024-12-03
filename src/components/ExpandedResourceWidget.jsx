@@ -10,12 +10,14 @@ const ExpandedResourceWidget = (props) => {
         <div className="expanded-resource-title-container">
           <p className="expanded-resource-title"> {props.resourceTitle}</p>
         </div>
-
         <div className="assignment-pdf-container">
           <img src={props.resourceIcon} />
           <a target="_blank" href={props.resourceLink}>
             {props.resourceTitle}
           </a>
+        </div>
+        <div className="expanded-resource-description">
+          {props.resourceDescription}
         </div>
       </div>
     </>

@@ -38,3 +38,7 @@ a {
   color: black;
   text-decoration: none;
 }
+
+.expanded-resource-description { 
+  margin: 10px;
+}
