@@ -5,8 +5,8 @@ import TeaCeremonyPDF from "../pdfs/TeaCeremonyObservationAssignment.pdf";
 import ZenGardenPDF from "../pdfs/ZenGardenCreationAssignment.pdf";
 import ReflectionPDF from "../pdfs/ReflectiononBuddhistArtwork.pdf";
 import ZenArtPoetryPDF from "../pdfs/ZeninArtorPoetry.pdf";
-import ZenTechPDF from "../pdfs/ZenandTechnology.pdf";
 import FieldTripPDF from "../pdfs/FieldTrip.pdf";
+import ZenTechPDF from "../pdfs/ZenandTechnology.pdf";
 
 const AssignmentPage = () => {
   return (
