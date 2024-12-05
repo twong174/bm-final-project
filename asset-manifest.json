@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bm-final-project/static/css/main.fa0c483c.css",
+    "main.js": "/bm-final-project/static/js/main.bb20c99e.js",
+    "static/js/453.2b1483f2.chunk.js": "/bm-final-project/static/js/453.2b1483f2.chunk.js",
+    "static/media/ReflectiononBuddhistArtwork.pdf": "/bm-final-project/static/media/ReflectiononBuddhistArtwork.e1b449e9ae1e3aaabb98.pdf",
+    "static/media/ZenGardenCreationAssignment.pdf": "/bm-final-project/static/media/ZenGardenCreationAssignment.6a9b0e5f546b58135003.pdf",
+    "static/media/ZeninArtorPoetry.pdf": "/bm-final-project/static/media/ZeninArtorPoetry.5c356267f2c4413a1a37.pdf",
+    "static/media/FieldTrip.pdf": "/bm-final-project/static/media/FieldTrip.b9cf5b7a2050234485ca.pdf",
+    "static/media/ZenandTechnology.pdf": "/bm-final-project/static/media/ZenandTechnology.e97daf71c5c287f23858.pdf",
+    "static/media/TeaCeremonyObservationAssignment.pdf": "/bm-final-project/static/media/TeaCeremonyObservationAssignment.1c41d7018ab588649552.pdf",
+    "index.html": "/bm-final-project/index.html",
+    "static/media/assignment.svg": "/bm-final-project/static/media/assignment.2a1f0a4e855e2435964f6a6efb6d901e.svg",
+    "static/media/book_2.svg": "/bm-final-project/static/media/book_2.7a3bc54b707d501feec2bb76d59f2d7c.svg",
+    "static/media/library_books.svg": "/bm-final-project/static/media/library_books.ef9b5419df352e2b88246421fe3f7427.svg",
+    "static/media/description.svg": "/bm-final-project/static/media/description.07314d81057ab4be0d8559b974ca5f4d.svg",
+    "static/media/videocam.svg": "/bm-final-project/static/media/videocam.0e1ec16ddf8fe9c2c0376824c262f75f.svg",
+    "static/media/home.svg": "/bm-final-project/static/media/home.6832ab6c5768c16c564773b5940bc22b.svg",
+    "main.fa0c483c.css.map": "/bm-final-project/static/css/main.fa0c483c.css.map",
+    "main.bb20c99e.js.map": "/bm-final-project/static/js/main.bb20c99e.js.map",
+    "453.2b1483f2.chunk.js.map": "/bm-final-project/static/js/453.2b1483f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa0c483c.css",
+    "static/js/main.bb20c99e.js"
+  ]
+}
