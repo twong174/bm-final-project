@@ -20,7 +20,6 @@ const ExpandedAssignmentWidget = (props) => {
         <a
           href={props.assignmentPDF}
           target="_blank"
-          rel="noopener noreferrer"
           className="assignment-pdf-link"
         >
           {props.assignmentTitle}.pdf

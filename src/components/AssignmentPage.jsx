@@ -1,6 +1,12 @@
 import React from "react";
 import "../styles/AssignmentPage.css";
 import ExpandedAssignmentWidget from "./ExpandedAssignmentWidget";
+import TeaCeremonyPDF from "../pdfs/TeaCeremonyObservationAssignment.pdf";
+import ZenGardenPDF from "../pdfs/ZenGardenCreationAssignment.pdf";
+import ReflectionPDF from "../pdfs/ReflectiononBuddhistArtwork.pdf";
+import ZenArtPoetryPDF from "../pdfs/ZeninArtorPoetry.pdf";
+import ZenTechPDF from "../pdfs/ZenandTechnology.pdf";
+import FieldTripPDF from "../pdfs/FieldTrip.pdf";
 
 const AssignmentPage = () => {
   return (
@@ -16,38 +22,37 @@ const AssignmentPage = () => {
         <ExpandedAssignmentWidget
           assignmentTitle="Tea Ceremony Observation Assignment"
           assignmentDueDate="12/4/24"
-          assignmentPDF="/pdfs/TeaCeremonyObservationAssignment.pdf"
+          assignmentPDF={TeaCeremonyPDF}
           priority="High"
         />
         <ExpandedAssignmentWidget
           assignmentTitle="Zen Garden Creation Assignment"
           assignmentDueDate="12/9/24"
-          assignmentPDF="/pdfs/ZenGardenCreationAssignment.pdf"
+          assignmentPDF={ZenGardenPDF}
           priority="Medium"
         />
         <ExpandedAssignmentWidget
           assignmentTitle="Reflections on Buddhist Art"
           assignmentDueDate="12/9/24"
-          assignmentPDF="/pdfs/ReflectiononBuddhistArtwork.pdf"
+          assignmentPDF={ReflectionPDF}
           priority="Medium"
         />
         <ExpandedAssignmentWidget
           assignmentTitle="Zen in Art or Poetry"
           assignmentDueDate="12/16/24"
-          assignmentPDF="/pdfs/ZeninArtorPoetry.pdf"
+          assignmentPDF={ZenArtPoetryPDF}
           priority="Low"
         />
         <ExpandedAssignmentWidget
           assignmentTitle="Zen and Technology"
           assignmentDueDate="12/16/24"
-          assignmentPDF="/pdfs/ZenandTechnology.pdf"
+          assignmentPDF={ZenTechPDF}
           priority="Low"
         />
         <ExpandedAssignmentWidget
-          assignmentTitle="Field Trip to Dai Bosatsu Zendo, Kongo-Ji
-          "
+          assignmentTitle="Field Trip to Dai Bosatsu Zendo, Kongo-Ji"
           assignmentDueDate="12/18/24"
-          assignmentPDF="/pdfs/FieldTrip.pdf"
+          assignmentPDF={FieldTripPDF}
           priority="Low"
         />
       </div>
